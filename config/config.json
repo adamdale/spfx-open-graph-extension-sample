@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "graph-extensions-crud-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/graphExtensionsCrud/GraphExtensionsCrudWebPart.js",
+          "manifest": "./src/webparts/graphExtensionsCrud/GraphExtensionsCrudWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "GraphExtensionsCrudWebPartStrings": "lib/webparts/graphExtensionsCrud/loc/{locale}.js"
+  }
+}

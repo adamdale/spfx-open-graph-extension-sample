@@ -1,0 +1,32 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "graph-extensions-crud-client-side-solution",
+    "title": "Bestranet Open Graph Extensions CRUD",
+    "id": "e3d03c44-5e41-427a-b98c-093fb6ee0d86",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "Bestranet",
+      "websiteUrl": "https://bestranet.com",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": ""
+    },
+    "webApiPermissionRequests": [
+      {
+        "resource": "Microsoft Graph",
+        "scope": "User.Read"
+      },
+      {
+        "resource": "Microsoft Graph",
+        "scope": "User.ReadWrite"
+      }
+    ]
+  },
+  
+  "paths": {
+    "zippedPackage": "solution/graph-extensions-crud.sppkg"
+  }
+}
